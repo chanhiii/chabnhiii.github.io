@@ -1,0 +1,68 @@
+
+header{
+  background:#f6f0cc;
+  width:100%;
+
+}
+
+.greet{
+  text-align:center;
+  font-weight:bold;
+  font-size:40px;
+}
+
+.prof{
+  display:flex;
+  /* justify-content: space-between; */
+}
+
+.face img{
+  height:400px;
+  width:400px;
+  border-radius:50%;  
+  margin:0 10px;
+}
+
+.info{
+  /* text-align:center; */
+  margin:0 10px;
+}
+
+.info h1{
+  background-color:#fff;
+
+}
+
+.info p{
+  
+}
+
+.info ul{
+
+}
+
+.info ul {
+  list-style:  none;  /* デフォルトのアイコンを消す */
+  margin:  0;         /* デフォルト指定上書き */
+  padding: 0;         /* デフォルト指定上書き */
+}
+
+.info li:before {
+  content:  "";                 /* 空の要素作成 */
+  width: 20px;                            /* 幅指定 */
+  height: 20px;                           /* 高さ指定 */
+  display:  inline-block;                 /* インラインブロックにする */
+  position:  relative;                    /* アイコンの位置を調整 */
+  top: 2px;                             /* アイコンの位置を調整 */
+  margin-right: 5px;                      /* 余白指定 */
+  background-image:  url(../gen.png);  /* アイコン指定 */
+  background-size:  contain;              /* アイコンの大きさ指定 */
+  background-repeat:  no-repeat;          /* アイコンをリピートしないようにする */
+  vertical-align: top;                    /* アイコンの位置を調整 */
+}
+
+.info li {
+  padding:  2px;                         /* 余白指定 */
+  margin-bottom: 1px;                     /* 要素と要素の間指定 */
+  font-size:  20px;                       /* 文字サイズ指定 */
+}
