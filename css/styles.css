@@ -4,6 +4,8 @@ header{
   width:100%;
 
 }
+.greet, .prof{
+}
 
 .greet{
   text-align:center;
@@ -12,6 +14,11 @@ header{
 }
 
 .prof{
+  /* display: inline-block;
+  text-align:center; */
+  width:70%;   
+ 
+  margin: 0 auto;
   display:flex;
   /* justify-content: space-between; */
 }
@@ -23,22 +30,19 @@ header{
   margin:0 10px;
 }
 
+.info h1, .fav{
+  text-align:center;
+}
+
 .info{
-  /* text-align:center; */
-  margin:0 10px;
+  width:50%;
+  text-align:center;
+  /* margin:0 10px; */
+  /* display: inline-block; */
 }
 
 .info h1{
   background-color:#fff;
-
-}
-
-.info p{
-  
-}
-
-.info ul{
-
 }
 
 .info ul {
