@@ -1,2 +1,2 @@
-# chabnhiii.github.io
+# がむばろう
 ちゃんひーのぷちHP
