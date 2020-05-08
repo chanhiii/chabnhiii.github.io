@@ -17,7 +17,6 @@ header{
   /* display: inline-block;
   text-align:center; */
   width:70%;   
- 
   margin: 0 auto;
   display:flex;
   /* justify-content: space-between; */
@@ -30,8 +29,8 @@ header{
   margin:0 10px;
 }
 
-.info h1, .fav{
-  text-align:center;
+.info h1{
+  background:#8aa3b9;
 }
 
 .info{
@@ -69,4 +68,5 @@ header{
   padding:  2px;                         /* 余白指定 */
   margin-bottom: 1px;                     /* 要素と要素の間指定 */
   font-size:  20px;                       /* 文字サイズ指定 */
+  border-bottom: #fff;
 }
