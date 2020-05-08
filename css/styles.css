@@ -5,10 +5,12 @@ header{
 
 }
 .greet, .prof{
+width:800px
 }
 
 .greet{
   text-align:center;
+  margin:0 auto;
   font-weight:bold;
   font-size:40px;
 }
@@ -16,21 +18,22 @@ header{
 .prof{
   /* display: inline-block;
   text-align:center; */
-  width:70%;   
-  margin: 0 auto;
+  /* width:70%; */
+  height:500px;
   display:flex;
   justify-content: space-between;
+  margin:10px auto;
 }
 
 .face img{
-  height:400px;
-  width:400px;
+  height:200px;
+  width:200px;
   border-radius:50%;  
-  margin:0 10px;
+  margin:auto 10px;
 }
 
 .info{
-  width:50%;
+  width:1000px;
   text-align:center;
   margin:0 auto;
   /* margin:0 10px; */
@@ -76,7 +79,20 @@ header{
   border-bottom: #fff;
 }
 
-section img{
-  height:200px;
-  width:200px;
+section > img{
+  height:40%;
+  width:30%;
 }
+
+section{
+  display:flex;
+  justify-content: space-between;
+}
+
+main{
+  text-align:center;
+  margin:0 auto;
+  width:700px;
+  background:#eaf6f6;
+}
+
