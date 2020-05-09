@@ -1,9 +1,24 @@
+html {
+  box-sizing: border-box; 
+} 
+  
+*, *:before, *:after {
+  box-sizing: inherit; 
+  margin:0;
+padding:0;
+}
+
+body{
+  margin:0;
+}
 
 header{
   background:#f6f0cc;
   width:100%;
-
+  background-image:linear-gradient(#c9ffbf, #ffafbd);
+  min-height:400px;
 }
+
 .greet, .prof{
 width:800px
 }
@@ -44,6 +59,8 @@ width:800px
   background-color:#f67690;
   display: inline-block;
   padding:10px;
+  line-height: ;
+
 }
 
 .info p{
@@ -81,18 +98,68 @@ width:800px
 
 section > img{
   height:40%;
-  width:30%;
+  margin-right:30px;
+  /* margin-top:30px; */
+  width:50%;
 }
 
+section > h1{
+  margin:0;
+}
+
+section .tell{
+  width:calc(50% - 32px);
+  /* height:100%; */
+  margin:auto;
+}
+
+/* .games{
+  margin-bottom:100px;
+  }
+} */
+
+
 section{
+  margin:0 auto;
+  /* text-align:center; */
   display:flex;
   justify-content: space-between;
+  padding-top:100px;
+  width:700px;
+}
+
+main section:nth-child(even){
+  flex-direction:row-reverse;
 }
 
 main{
   text-align:center;
   margin:0 auto;
-  width:700px;
+  width:100%;
   background:#eaf6f6;
+  padding-bottom:100px;
 }
 
+footer{
+  margin:0;
+  /* height:300px; */
+  background:#fff000;
+}
+
+.comedys .tell p{
+  margin-bottom:15px;
+}
+
+.comedy-btn{
+  text-decoration:none;
+  background:rgb(15, 18, 199);
+  color:#f1f500e5;
+  /* display:block; */
+  /* width:200px; */
+  /* line-height:60px; */
+  /* margin-top:50px; */
+  font-size:30px;
+  font-weight:bold;
+  border-radius:10px;
+  padding:15px;
+}
