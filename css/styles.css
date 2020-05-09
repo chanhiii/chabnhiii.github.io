@@ -50,7 +50,7 @@ width:800px
 .info{
   width:1000px;
   text-align:center;
-  margin:0 auto;
+  /* margin:0 auto; */
   /* margin:0 10px; */
   /* display: inline-block; */
 }
@@ -58,15 +58,17 @@ width:800px
 .info h1{
   background-color:#f67690;
   display: inline-block;
-  padding:10px;
-  line-height: ;
-
+  padding:5px 10px;
+  /* line-height: ; */
+  border-radius: 30px;
+  /* width:10%; */
 }
 
 .info p{
   font-family: “HGP行書体”, “ＭＳ Ｐ明朝”, “MS PMincho”, serif;
-  font-size:20px;
+  font-size:40px;
   /* font-weight:30px bold; */
+  font-weight:bold;
 }
 
 .info ul {
@@ -92,8 +94,10 @@ width:800px
 .info li {
   padding:  2px;                         /* 余白指定 */
   margin-bottom: 1px;                     /* 要素と要素の間指定 */
-  font-size:  20px;                       /* 文字サイズ指定 */
+  font-size:  30px;                       /* 文字サイズ指定 */
   border-bottom: #fff;
+  text-align:left;
+  margin-left:40%;
 }
 
 section > img{
@@ -128,6 +132,115 @@ section{
   width:700px;
 }
 
+
+
+.comedys .tell p{
+  margin-bottom:15px;
+}
+
+
+
+
+
+.comedy-btn {
+	display: inline-block;
+	width: 160px;
+	padding: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background:#0C88CA;
+	border-bottom:4px solid #005691;
+	border-radius: 4px;
+  transition: .0s;
+  opacity:0.8;
+  
+}
+.comedy-btn:hover {
+	 cursor: pointer;
+	 text-decoration: none;
+   /* background:#005691; */
+   opacity:1;
+	 transform: translate3d(0, 4px, 0) rotate(20deg);
+	 transition: .0s;
+	 border-bottom: none;
+} 
+
+
+
+
+.book-btn{
+  display:inline-block;
+  width:160px;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  background:#0C88CA;
+  border-radius:4px;
+  border-bottom:4px solid #005691;
+  transition:.0s;
+}
+
+.book-btn:hover{
+  margin-top:50px;
+  cursor:pointer;
+  text-decoration:none;
+  opacity:1;
+  border-bottom:none;
+  transform: translate3d(20px, 4px, 0) rotate(340deg);
+  transition:.0s;
+}
+
+
+.music-btn{
+  display:inline-block;
+  width:160px;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  background:#0C88CA;
+  border-radius:4px;
+  border-bottom:4px solid #005691;
+  transition:.0s;
+}
+
+.music-btn:hover{
+  margin-top:50px;
+  cursor:pointer;
+  text-decoration:none;
+  opacity:1;
+  border-bottom:none;
+  transform: translate3d(20px, 4px, 0) rotate(340deg);
+  transition:.0s;
+}
+
+
+.game-btn{
+  display:inline-block;
+  width:160px;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  background:#0C88CA;
+  border-radius:4px;
+  border-bottom:4px solid #005691;
+  transition:.0s;
+}
+
+.game-btn:hover{
+  margin-top:50px;
+  cursor:pointer;
+  text-decoration:none;
+  opacity:1;
+  border-bottom:none;
+  transform: translate3d(20px, 4px, 0) rotate(340deg);
+  transition:.0s;
+}
+
+
 main section:nth-child(even){
   flex-direction:row-reverse;
 }
@@ -144,22 +257,6 @@ footer{
   margin:0;
   /* height:300px; */
   background:#fff000;
-}
-
-.comedys .tell p{
-  margin-bottom:15px;
-}
-
-.comedy-btn{
-  text-decoration:none;
-  background:rgb(15, 18, 199);
-  color:#f1f500e5;
-  /* display:block; */
-  /* width:200px; */
-  /* line-height:60px; */
-  /* margin-top:50px; */
-  font-size:30px;
-  font-weight:bold;
-  border-radius:10px;
-  padding:15px;
+  height:80px;
+  font-size:20px;
 }
